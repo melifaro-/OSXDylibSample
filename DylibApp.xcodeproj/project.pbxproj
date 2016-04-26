@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		533F57F51CCF9AEB006CFDA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F57F41CCF9AEB006CFDA5 /* AppDelegate.swift */; };
+		533F57F71CCF9AEB006CFDA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F57F61CCF9AEB006CFDA5 /* ViewController.swift */; };
+		533F57F91CCF9AEB006CFDA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533F57F81CCF9AEB006CFDA5 /* Assets.xcassets */; };
+		533F57FC1CCF9AEC006CFDA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533F57FA1CCF9AEC006CFDA5 /* Main.storyboard */; };
+		533F58231CCF9BE3006CFDA5 /* libFoo.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 533F581D1CCF9B8B006CFDA5 /* libFoo.dylib */; };
+		533F58251CCF9C5E006CFDA5 /* libFoo.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 533F581D1CCF9B8B006CFDA5 /* libFoo.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		533F581C1CCF9B8B006CFDA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533F58181CCF9B8A006CFDA5 /* Foo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 533F580C1CCF9B8A006CFDA5;
+			remoteInfo = Foo;
+		};
+		533F58211CCF9BDF006CFDA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533F58181CCF9B8A006CFDA5 /* Foo.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 533F580B1CCF9B8A006CFDA5;
+			remoteInfo = Foo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		533F58241CCF9C55006CFDA5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				533F58251CCF9C5E006CFDA5 /* libFoo.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		533F57F11CCF9AEB006CFDA5 /* DylibApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DylibApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		533F57F41CCF9AEB006CFDA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		533F57F61CCF9AEB006CFDA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		533F57F81CCF9AEB006CFDA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		533F57FB1CCF9AEC006CFDA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		533F57FD1CCF9AEC006CFDA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533F58181CCF9B8A006CFDA5 /* Foo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Foo.xcodeproj; path = Foo/Foo.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		533F57EE1CCF9AEB006CFDA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533F58231CCF9BE3006CFDA5 /* libFoo.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533F57E81CCF9AEB006CFDA5 = {
+			isa = PBXGroup;
+			children = (
+				533F57F31CCF9AEB006CFDA5 /* DylibApp */,
+				533F58181CCF9B8A006CFDA5 /* Foo.xcodeproj */,
+				533F57F21CCF9AEB006CFDA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		533F57F21CCF9AEB006CFDA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533F57F11CCF9AEB006CFDA5 /* DylibApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		533F57F31CCF9AEB006CFDA5 /* DylibApp */ = {
+			isa = PBXGroup;
+			children = (
+				533F57F41CCF9AEB006CFDA5 /* AppDelegate.swift */,
+				533F57F61CCF9AEB006CFDA5 /* ViewController.swift */,
+				533F57F81CCF9AEB006CFDA5 /* Assets.xcassets */,
+				533F57FA1CCF9AEC006CFDA5 /* Main.storyboard */,
+				533F57FD1CCF9AEC006CFDA5 /* Info.plist */,
+			);
+			path = DylibApp;
+			sourceTree = "<group>";
+		};
+		533F58191CCF9B8A006CFDA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533F581D1CCF9B8B006CFDA5 /* libFoo.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		533F57F01CCF9AEB006CFDA5 /* DylibApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533F58001CCF9AEC006CFDA5 /* Build configuration list for PBXNativeTarget "DylibApp" */;
+			buildPhases = (
+				533F57ED1CCF9AEB006CFDA5 /* Sources */,
+				533F57EE1CCF9AEB006CFDA5 /* Frameworks */,
+				533F57EF1CCF9AEB006CFDA5 /* Resources */,
+				533F58241CCF9C55006CFDA5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533F58221CCF9BDF006CFDA5 /* PBXTargetDependency */,
+			);
+			name = DylibApp;
+			productName = DylibApp;
+			productReference = 533F57F11CCF9AEB006CFDA5 /* DylibApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		533F57E91CCF9AEB006CFDA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = IB;
+				TargetAttributes = {
+					533F57F01CCF9AEB006CFDA5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 533F57EC1CCF9AEB006CFDA5 /* Build configuration list for PBXProject "DylibApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 533F57E81CCF9AEB006CFDA5;
+			productRefGroup = 533F57F21CCF9AEB006CFDA5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 533F58191CCF9B8A006CFDA5 /* Products */;
+					ProjectRef = 533F58181CCF9B8A006CFDA5 /* Foo.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				533F57F01CCF9AEB006CFDA5 /* DylibApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		533F581D1CCF9B8B006CFDA5 /* libFoo.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libFoo.dylib;
+			remoteRef = 533F581C1CCF9B8B006CFDA5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		533F57EF1CCF9AEB006CFDA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533F57F91CCF9AEB006CFDA5 /* Assets.xcassets in Resources */,
+				533F57FC1CCF9AEC006CFDA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533F57ED1CCF9AEB006CFDA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533F57F71CCF9AEB006CFDA5 /* ViewController.swift in Sources */,
+				533F57F51CCF9AEB006CFDA5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		533F58221CCF9BDF006CFDA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Foo;
+			targetProxy = 533F58211CCF9BDF006CFDA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		533F57FA1CCF9AEC006CFDA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533F57FB1CCF9AEC006CFDA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		533F57FE1CCF9AEC006CFDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		533F57FF1CCF9AEC006CFDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		533F58011CCF9AEC006CFDA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DylibApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IB.DylibApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		533F58021CCF9AEC006CFDA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DylibApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IB.DylibApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533F57EC1CCF9AEB006CFDA5 /* Build configuration list for PBXProject "DylibApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533F57FE1CCF9AEC006CFDA5 /* Debug */,
+				533F57FF1CCF9AEC006CFDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533F58001CCF9AEC006CFDA5 /* Build configuration list for PBXNativeTarget "DylibApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533F58011CCF9AEC006CFDA5 /* Debug */,
+				533F58021CCF9AEC006CFDA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 533F57E91CCF9AEB006CFDA5 /* Project object */;
+}
